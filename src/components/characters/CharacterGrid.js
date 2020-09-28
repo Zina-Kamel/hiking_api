@@ -4,11 +4,11 @@ import Spinner from '../ui/Spinner'
 
 const CharacterGrid = ({ items, isLoading }) => {
   return isLoading ? (
-    <h1>loading..</h1>
+    <Spinner/>
   ) : (
     <section className='cards'>
-      {items.map((item) => (
-        <h1>{item.trails.name}</h1>
+      {items.trails.map((item) => (
+        <CharacterItem key={item.id} item={item}></CharacterItem>
       ))}
     </section>
   )

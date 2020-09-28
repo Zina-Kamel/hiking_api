@@ -1,10 +1,12 @@
 import React from 'react'
-import logo from '../../img/logo.png'
+import hiking from '../../img/bllogo.PNG'
 
 const Header = () => {
   return (
     <header className='center'>
-      <img src={logo} alt='' />
+      {/* <img src={hiking} alt='' /> */}
+      <br></br>
+      <div>Find the nearest local hiking trail and save the your health and planet!</div>
     </header>
   )
 }

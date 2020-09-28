@@ -5,22 +5,28 @@ const CharacterItem = ({ item }) => {
     <div className='card'>
       <div className='card-inner'>
         <div className='card-front'>
-          <img src={item.img} alt='' />
+          <img src={item.imgMedium} alt='' />
         </div>
         <div className='card-back'>
           <h1>{item.name}</h1>
           <ul>
             <li>
-              <strong>Actor Name:</strong> {item.portrayed}
+              <strong>Condition Details:</strong> {item.conditionDetails}
             </li>
             <li>
-              <strong>Nickname:</strong> {item.nickname}
+              <strong>Difficulty:</strong> {item.difficulty}
             </li>
             <li>
-              <strong>Birthday:</strong> {item.birthday}
+              <strong>length:</strong> {item.length}
             </li>
             <li>
-              <strong>Status:</strong> {item.status}
+              <strong>location:</strong> {item.location}
+            </li>
+            <li>
+              <strong>stars:</strong> {item.stars}
+            </li>
+            <li>
+              <strong>summary:</strong> {item.summary}
             </li>
           </ul>
         </div>

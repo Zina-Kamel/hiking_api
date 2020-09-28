@@ -38,7 +38,13 @@ header {
 }
 
 header img {
-  width: 200px;
+  width: 1000px;
+  display: block;
+}
+
+header div{
+  font-size: 25px;
+  display: block;
 }
 
 .center {
@@ -118,6 +124,8 @@ input[type='text'] {
 .card li {
   list-style: none;
   padding-bottom: 10px;
+  cursor: pointer;
+  
 }
 
 @media (max-width: 800px) {
