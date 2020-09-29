@@ -1,17 +1,18 @@
 import React from 'react'
-import CharacterItem from './CharacterItem'
+import TrailItem from './TrailItem'
 import Spinner from '../ui/Spinner'
 
-const CharacterGrid = ({ items, isLoading }) => {
+
+const TrailGrid = ({ items, isLoading }) => {
   return isLoading ? (
     <Spinner/>
   ) : (
     <section className='cards'>
       {items.trails.map((item) => (
-        <CharacterItem key={item.id} item={item}></CharacterItem>
+        <TrailItem key={item.id} item={item}></TrailItem>
       ))}
     </section>
   )
 }
 
-export default CharacterGrid
+export default TrailGrid

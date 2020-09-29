@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CharacterItem = ({ item }) => {
+const TrailItem = ({ item }) => {
   return (
     <div className='card'>
       <div className='card-inner'>
@@ -8,7 +8,7 @@ const CharacterItem = ({ item }) => {
           <img src={item.imgMedium} alt='' />
         </div>
         <div className='card-back'>
-          <h1>{item.name}</h1>
+        <h1> <a href={item.url !== null ? item.url : "#"} target="_blank">{item.name}</a> </h1>
           <ul>
             <li>
               <strong>Condition Details:</strong> {item.conditionDetails}
@@ -35,4 +35,4 @@ const CharacterItem = ({ item }) => {
   )
 }
 
-export default CharacterItem
+export default TrailItem
