@@ -29,6 +29,7 @@ const LocationDropdown = ({ locationCallback }) => {
       <option value="	-15.7500, -47.9500">Brazil</option>
       <option value="	26.820553, 30.802498">Egypt</option>
       <option value="	31.963158, 35.930359">Lebanon</option>
+      <option value="	36.806389, 10.181667">Tunisia</option>
       
     </select>
   );
