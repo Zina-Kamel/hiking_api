@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hiking_api/static/css/main.07e6a917.chunk.css",
+    "main.js": "/hiking_api/static/js/main.4d228a01.chunk.js",
+    "main.js.map": "/hiking_api/static/js/main.4d228a01.chunk.js.map",
+    "runtime-main.js": "/hiking_api/static/js/runtime-main.71211480.js",
+    "runtime-main.js.map": "/hiking_api/static/js/runtime-main.71211480.js.map",
+    "static/js/2.257b8084.chunk.js": "/hiking_api/static/js/2.257b8084.chunk.js",
+    "static/js/2.257b8084.chunk.js.map": "/hiking_api/static/js/2.257b8084.chunk.js.map",
+    "index.html": "/hiking_api/index.html",
+    "precache-manifest.5d7f0adc75321c68a7fd20736773acb0.js": "/hiking_api/precache-manifest.5d7f0adc75321c68a7fd20736773acb0.js",
+    "service-worker.js": "/hiking_api/service-worker.js",
+    "static/css/main.07e6a917.chunk.css.map": "/hiking_api/static/css/main.07e6a917.chunk.css.map",
+    "static/js/2.257b8084.chunk.js.LICENSE.txt": "/hiking_api/static/js/2.257b8084.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/hiking_api/static/media/bg.1be2d3a0.jpg",
+    "static/media/bllogo.PNG": "/hiking_api/static/media/bllogo.2999bd94.PNG",
+    "static/media/spinner.gif": "/hiking_api/static/media/spinner.235b9b3e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71211480.js",
+    "static/js/2.257b8084.chunk.js",
+    "static/css/main.07e6a917.chunk.css",
+    "static/js/main.4d228a01.chunk.js"
+  ]
+}
